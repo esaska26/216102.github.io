@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+body{
+    background-image: url("images/van gogh.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+#description > li {
+    border: dashed 2px yellow;
+    margin: 5px 0;
+    padding: 5px 0;
+    width: 250px;
+    list-style-type: none;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: lightseagreen;
+}
+li > a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    margin-top: 20px;
+    justify-items: center;
+}
+#navli > li{
+    display: inline-block;
+    border: groove 4px yellow;
+    padding: 7px 50px;
+    margin: 7px 15px;
+    background-color: lightseagreen;
+    box-shadow: 0 0 50px 15px #fffb6b;
+    font-weight: 600;
+}
+nav{
+    margin-left: 210px;
+}
+#navli > li:hover{
+    border: dotted 4px yellow;
+    font-style: italic;
+    font-size: 20px;
+}
+#jas{
+    width: 250px;
+    height: auto;
+}
+audio{
+    margin-top: 30px;
+}
+#des\/aud{
+    float: left;
+}
+#facts{
+    background-color: dodgerblue;
+    display: inline-block;
+    margin-top: 127px;
+    padding: 20px 10px 25px 10px;
+    border: dashed 2px orange;
+    border-bottom: none;
+    float: right;
+    color: white;
+}
+#fcenter{
+    text-align: center;
+    font-size: 20px;
+
+}
+#dodatno{
+    background-color: cornflowerblue;
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 343px;
+    left: 341px;
+    padding: 10px 22px 10px 5px;
+    border: dashed 2px orangered;
+    border-top: none;
+    color: white;
+}
+#dcenter{
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0 0 50px 15px #fffb6b;
+}
+#aboutme{
+    display: inline-block;
+    background-color: lightseagreen;
+    width: 650px;
+    margin-left: 55px;
+    border: groove 4px yellow;
+    padding: 10px;
+    margin-top: 73px;
+}
+audio{
+    position: relative;
+    top: 110px;
+    left: 530px;
+}
+#mozart{
+    background-color: #fffb6b;
+    position: relative;
+    top: 130px;
+    left: 530px;
+    text-align: center;
+    font-weight: 900;
+}
+.hobby{
+    background-color: lightseagreen;
+    margin: 0 50px;
+    border: groove 4px #efffcf;
+    padding: 10px 30px 35px 30px;
+}
+.text{
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 17px;
+}
+.books{
+    width: 500px;
+    background-color: cadetblue;
+    box-shadow: 0 0 50px 15px white;
+    border: dashed 2px white;
+}
+#bookphotos{
+    float: right;
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+}
+
+#circe{
+    width: 160px;
+    height: auto;
+    border: groove 10px #9e9e08;
+    position: relative;
+    right: 350px;
+    top: 240px;
+    box-shadow: 0 0 50px 15px white;
+}
+
+#soc{
+    width: 160px;
+    height: auto;
+    border: groove 10px #9e9e08;
+    position: relative;
+    left: 170px;
+    top: -15px;
+    box-shadow: 0 0 50px 15px white;
+}
+
+#metro33{
+    width: 160px;
+    height: auto;
+    border: groove 10px #9e9e08;
+    position: relative;
+    top: -130px;
+    right: 100px;
+    box-shadow: 0 0 50px 15px white;
+}
+.list{
+    padding: 10px;
+     color: white;
+    list-style-type: none;
+}
+ #songs{
+     border: dashed 6px darkred;
+     float: right;
+     width: 350px;
+     position: relative;
+     top: -550px;
+     background-color: goldenrod;
+ }
+ ol > li{
+     list-style-type: none;
+     padding: 10px 20px;
+ }
+ .titlelist{
+     font-weight: 800;
+     font-style: italic;
+     font-size: 23px;
+     text-align: center;
+ }
+.titlelists{
+    font-weight: 800;
+    font-style: italic;
+    font-size: 23px;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+ #atlantis{
+     width: 300px;
+     position: absolute;
+     top: 1400px;
+     left: 660px;
+     border: groove 10px #7f7d00;
+     box-shadow: 0 0 50px 15px #b4b78a;
+ }
+ #princessbride{
+     width: 230px;
+     position: absolute;
+     top: 1582px;
+     left: 640px;
+     border: groove 10px #7f7d00;
+     box-shadow: 0 0 50px 15px #b4b78a;
+ }
+#vinyl{
+    width: 200px;
+    position: absolute;
+    top: 1820px;
+    left: 1100px;
+    border: groove 10px #7f7d00;
+    box-shadow: 0 0 50px 15px #b4b78a;
+}
+#HarryCallahan{
+    width: 180px;
+    position: absolute;
+    top: 1790px;
+    left: 800px;
+    border: groove 10px #7f7d00;
+    box-shadow: 0 0 50px 15px #b4b78a;
+}
+.posledno{
+    background-color: lightseagreen;
+    margin: 0 400px;
+    border: groove 4px #efffcf;
+    padding: 10px 30px 35px 30px;
+}
+#tekst{
+    margin-left: 55px;
+    margin-top: 15px;
+    width: 450px;
+    padding: 0 20px;
+    font-size: 16px;
+}
+#zhelba1{
+    margin-top: 50px;
+    width: 350px;
+    height: auto;
+    border: groove 10px #8a7803;
+    position: relative;
+    left: 115px;
+}
+footer{
+    background-color: #fffb6b;
+    border: groove 10px #8a7803;
+    margin: 35px 40px 0 40px;
+    padding: 10px 100px 30px 100px;
+}
+#contact{
+    padding: 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.info{
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+#sonce{
+    float: right;
+    position: relative;
+    bottom: 145px;
+    right: 30px;
+    border: groove 8px #9e5f21;
+}
+#footercontact{
+    padding: 30px 0;
+}
+#navigation{
+    background-color: #f5ff62;
+    list-style-type: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    right: 220px;
+    top: 80px;
+    width: 1491px;
+}
+#navigation > li{
+    display: inline-block;
+    margin: 10px 30px;
+}
+#navigation > li:hover{
+    font-family: sans-serif;
+    background-color: white;
+}
